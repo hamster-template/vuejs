@@ -5,7 +5,8 @@ module.exports = {
     },
     plugins: ["vue"],
     parserOptions: {
-        parser: "babel-eslint"
+        parser: "babel-eslint",
+        sourceType: "module"
     },
     rules: {
         eqeqeq: 0,
